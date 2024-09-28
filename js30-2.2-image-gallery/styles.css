@@ -57,7 +57,14 @@ body {
   gap: 10px;
 }
 .search-icon {
+  height: 30px;
   width: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.search-icon:hover {
+  fill: #ffb749;
 }
 
 .header-container {
@@ -81,4 +88,19 @@ body {
   width: 380px;
   height: 214px;
   object-fit: cover;
+}
+
+.close-button {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 65px;
+  margin-top: 5px;
+  margin-right: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.close-button:hover {
+  stroke: #e59800;
 }
