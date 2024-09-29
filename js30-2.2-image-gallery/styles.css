@@ -1,0 +1,106 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 5px solid rgb(248, 245, 238);
+}
+
+.rs-logo {
+  width: 50px;
+}
+
+.footer-text {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.gh-link {
+  color: #ffb749;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px 20px 15px;
+  border-bottom: 5px solid rgb(248, 245, 238);
+}
+
+.header-image {
+  width: 50px;
+  height: 50px;
+}
+
+.header-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+}
+
+.header-search {
+  width: 100%;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  gap: 10px;
+}
+.search-icon {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.search-icon:hover {
+  fill: #ffb749;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.image-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.image-grid-item {
+  width: 380px;
+  height: 214px;
+  object-fit: cover;
+}
+
+.close-button {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 65px;
+  margin-top: 5px;
+  margin-right: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.close-button:hover {
+  stroke: #e59800;
+}
